@@ -35,7 +35,7 @@ public sealed class JsonHttp(HttpClient client)
 
     private async Task<JsonElement> SendAsync(HttpRequestMessage request, IReadOnlyDictionary<string, string>? headers)
     {
-        request.Headers.UserAgent.ParseAdd("openvitals-finances/1 (+https://github.com/OpenVitals-MTU/finances)");
+        request.Headers.UserAgent.ParseAdd("hale-finances/1 (+https://github.com/Hale-MTU/finances)");
         request.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         foreach (var (key, value) in headers ?? new Dictionary<string, string>())
             request.Headers.TryAddWithoutValidation(key, value);

@@ -96,7 +96,7 @@ async Task<int> BankConnect(string[] rest)
 {
     if (rest.Length == 0) { Console.Error.WriteLine("usage: bank-connect \"<bank name as listed>\" [days]"); return 2; }
     var days = rest.Length > 1 ? int.Parse(rest[1], CultureInfo.InvariantCulture) : 90;
-    var redirect = settings.Get("ENABLEBANKING_REDIRECT_URL", "https://github.com/OpenVitals-MTU/finances");
+    var redirect = settings.Get("ENABLEBANKING_REDIRECT_URL", "https://github.com/Hale-MTU/finances");
     var url = await Bank().StartAuthorizationAsync(rest[0], settings.Get("FINANCES_BANK_COUNTRY", "EE"), days, redirect, business: true);
     Console.WriteLine("1. Open this link, log in to the bank and approve read access:");
     Console.WriteLine($"   {url}");

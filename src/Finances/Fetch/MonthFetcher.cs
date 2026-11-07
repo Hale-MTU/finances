@@ -44,7 +44,7 @@ public sealed class MonthFetcher(DataStore store, JsonHttp http)
 
         int? patrons = null;
         if (!o.SkipLiberapay)
-            patrons = await new LiberapayClient(http).PatronsAsync(o.Env("LIBERAPAY_USERNAME") is { Length: > 0 } u ? u : "openvitals.mtu");
+            patrons = await new LiberapayClient(http).PatronsAsync(o.Env("LIBERAPAY_USERNAME") is { Length: > 0 } u ? u : "hale.mtu");
 
         if (!o.SkipStripe)
         {
