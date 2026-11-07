@@ -1,15 +1,20 @@
-# OpenVitals finances
+# Hale finances
 
-Public accounts of the association behind [OpenVitals](https://github.com/OpenVitals-MTU).
+Public accounts of [Hale](https://hale.ngo), the non-profit association that publishes
+[OpenVitals, OpenWatch and OpenBridge](https://github.com/Hale-MTU).
 
 - **Reports:** [reports/](reports/) — one Markdown file per month, plus a yearly index.
 - **Data:** [data/](data/) — the CSV files the reports are built from. The reports are
   generated; if a number looks wrong, the fix goes in the CSV.
-- **How to donate:** [Liberapay](https://liberapay.com/openvitals.mtu/donate), or a
+- **How to donate:** [Liberapay](https://liberapay.com/hale.mtu/donate), or a
   direct transfer to the association's bank account 
 
 > **Legal entity:** _OpenVitals MTÜ_, a non-profit association (mittetulundusühing)
-> registered in Estonia, registry code 80677610.
+> registered in Estonia, registry code 80677610. Its rename to _Hale MTÜ_ was filed
+> with the e-Business Register on 7 November 2026; the registry code does not change.
+> The reports carry the registered name, `FINANCES_ORGANISATION` in
+> [appsettings.json](appsettings.json), which changes to `Hale MTÜ` the day the
+> register enters the rename.
 
 ## What a monthly report contains
 
