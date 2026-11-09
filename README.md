@@ -9,12 +9,10 @@ Public accounts of [Hale](https://hale.ngo), the non-profit association that pub
 - **How to donate:** [Liberapay](https://liberapay.com/hale.mtu/donate), or a
   direct transfer to the association's bank account 
 
-> **Legal entity:** _OpenVitals MTÜ_, a non-profit association (mittetulundusühing)
-> registered in Estonia, registry code 80677610. Its rename to _Hale MTÜ_ was filed
-> with the e-Business Register on 7 November 2026; the registry code does not change.
-> The reports carry the registered name, `FINANCES_ORGANISATION` in
-> [appsettings.json](appsettings.json), which changes to `Hale MTÜ` the day the
-> register enters the rename.
+> **Legal entity:** _Mittetulundusühing Hale_ (_MTÜ Hale_), a non-profit association
+> (mittetulundusühing) registered in Estonia, registry code 80677610. Until November
+> 2026 it was registered as _Mittetulundusühing OpenVitals_; the registry code did not
+> change. Reports from that time carry the old name.
 
 ## What a monthly report contains
 
