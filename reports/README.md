@@ -4,6 +4,7 @@ Generated from [`data/`](../data/) by the finances tool. Newest first.
 
 | month | net income | expenses | result | closing balance |
 |---|---:|---:|---:|---:|
+| [2026-10](2026/2026-10.pdf) | 9.42 | 22.32 | -12.90 | 30.83 |
 | [2026-09](2026/2026-09.pdf) | 12.42 | 83.20 | -70.78 | 43.73 |
 | [2026-08](2026/2026-08.pdf) | 104.91 | 0.00 | 104.91 | 114.51 |
 
@@ -11,4 +12,4 @@ Generated from [`data/`](../data/) by the finances tool. Newest first.
 
 | year | net income | expenses | result |
 |---|---:|---:|---:|
-| 2026 | 117.33 | 83.20 | 34.13 |
+| 2026 | 126.75 | 105.52 | 21.23 |
