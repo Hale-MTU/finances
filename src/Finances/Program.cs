@@ -11,7 +11,7 @@ var settings = Settings.Load(root);
 var env = (Func<string, string?>)settings.Get;
 var currency = settings.Get("FINANCES_CURRENCY", "EUR").ToUpperInvariant();
 var tz = TimeZoneInfo.FindSystemTimeZoneById(settings.Get("FINANCES_TIMEZONE", "Europe/Tallinn"));
-var organisation = settings.Get("FINANCES_ORGANISATION", "OpenVitals MTÜ");
+var organisation = settings.Get("FINANCES_ORGANISATION", "MTÜ Hale");
 var http = new JsonHttp(new HttpClient { Timeout = TimeSpan.FromSeconds(60) });
 
 try
